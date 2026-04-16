@@ -38,16 +38,3 @@ export const HABIT_ICONS = [
   'triangle-outline', 'star',
   'timer', 'yoga',
 ];
-
-export const CATEGORY_ICONS = [
-  'dumbbell', 'book', 'heart', 'star', 'lightning-bolt',
-  'music-note', 'palette', 'code-tags', 'food-apple', 'meditation',
-];
-
-export const DEFAULT_CATEGORIES = [
-  { name: 'Fitness', icon: 'dumbbell' },
-  { name: 'Health', icon: 'heart' },
-  { name: 'Learning', icon: 'book' },
-  { name: 'Productivity', icon: 'lightning-bolt' },
-  { name: 'Mindfulness', icon: 'meditation' },
-];

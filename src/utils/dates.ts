@@ -7,7 +7,6 @@ import {
   endOfYear,
   subDays,
   parseISO,
-  getDay,
 } from 'date-fns';
 import { HabitStats } from '../types';
 
@@ -30,11 +29,6 @@ export function getYearDays(year: number): string[] {
 export function getLast5Days(): string[] {
   const today = new Date();
   return Array.from({ length: 5 }, (_, i) => formatDate(subDays(today, 4 - i)));
-}
-
-export function getDayOfWeekShort(dateStr: string): string {
-  const dayNames = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
-  return dayNames[getDay(parseISO(dateStr))];
 }
 
 export function getDayNumber(dateStr: string): number {
@@ -99,8 +93,4 @@ export function calculateStats(
   });
 
   return { totalCompleted, completionRate, weeklyDays, currentStreak, bestStreak, completionsByMonth };
-}
-
-export function getWeekDayIndex(dateStr: string): number {
-  return getDay(parseISO(dateStr));
 }

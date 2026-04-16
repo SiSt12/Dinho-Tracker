@@ -194,11 +194,6 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderRadius: 12,
   },
-  doneText: {
-    color: '#FFFFFF',
-    fontWeight: '700',
-    fontSize: 14,
-  },
   yearNav: {
     flexDirection: 'row',
     alignItems: 'center',
