@@ -11,16 +11,11 @@ export const lightTheme = {
   primary: '#FF6B2B',
   primaryLight: '#FFF1E8',
   border: '#FFD4B8',
-  borderLight: '#FFF1E0',
   success: '#2DC653',
   error: '#E63946',
-  warning: '#FFB703',
-  dotEmpty: '#FFF1E0',
-  dotEmptyBorder: '#FFD4B8',
   tabBar: '#FFFBF5',
   tabBarBorder: '#FFD4B8',
   statusBar: 'dark' as const,
-  overlay: 'rgba(26,26,46,0.5)',
 };
 
 export const darkTheme = {
@@ -35,16 +30,11 @@ export const darkTheme = {
   primary: '#FF8C42',
   primaryLight: '#331A00',
   border: '#2A2A3E',
-  borderLight: '#1A1A2E',
   success: '#2DC653',
   error: '#E63946',
-  warning: '#FFB703',
-  dotEmpty: '#1A1A2E',
-  dotEmptyBorder: '#2A2A3E',
   tabBar: '#1A1A2E',
   tabBarBorder: '#2A2A3E',
   statusBar: 'light' as const,
-  overlay: 'rgba(0,0,0,0.7)',
 };
 
 export type Theme = typeof lightTheme;

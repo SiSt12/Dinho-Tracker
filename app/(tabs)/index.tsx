@@ -191,8 +191,6 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     gap: 8,
   },
-  listContainer: {},
-  weeklyContainer: {},
   emptyState: {
     alignItems: 'center',
     justifyContent: 'center',

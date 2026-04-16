@@ -29,7 +29,7 @@ export function CompletionsChart({ data, color, year }: Props) {
       </View>
       <LineChart
         data={{
-          labels: monthLabels.map((m) => m.substring(0, 3)),
+          labels: monthLabels,
           datasets: [{ data: chartData.length > 0 ? chartData : [0] }],
         }}
         width={screenWidth}
