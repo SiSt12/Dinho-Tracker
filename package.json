@@ -1,32 +1,46 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "dinho-tracker",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.46.1",
-    "axios": "^1.7.7",
-    "clsx": "^2.1.1",
+    "@expo/metro-runtime": "~6.1.2",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-navigation/bottom-tabs": "^7.15.9",
+    "@supabase/supabase-js": "^2.103.1",
     "date-fns": "^4.1.0",
-    "lucide-react": "^0.460.0",
-    "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "tailwind-merge": "^2.5.4",
-    "@tailwindcss/postcss": "^4.0.0-alpha.31",
-    "tailwindcss": "^4.0.0-alpha.31"
+    "expo": "~54.0.33",
+    "expo-constants": "^55.0.14",
+    "expo-font": "^55.0.6",
+    "expo-linking": "^55.0.13",
+    "expo-localization": "^55.0.13",
+    "expo-router": "^55.0.12",
+    "expo-secure-store": "^55.0.13",
+    "expo-status-bar": "~3.0.9",
+    "i18next": "^26.0.5",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-i18next": "^17.0.3",
+    "react-native": "0.81.5",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-gesture-handler": "^2.31.1",
+    "react-native-reanimated": "^4.3.0",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "^4.24.0",
+    "react-native-svg": "^15.15.4",
+    "react-native-web": "^0.21.0",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.12"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "15.0.3",
-    "typescript": "^5"
-  }
+    "@types/react": "~19.1.0",
+    "@types/uuid": "^10.0.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
 }

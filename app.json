@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Dinho Tracker",
+    "slug": "dinho-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "dinho-tracker",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFBF5"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dinho.tracker"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF6B2B"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.dinho.tracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      "expo-secure-store"
+    ]
+  }
+}

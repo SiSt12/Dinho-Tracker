@@ -1,0 +1,53 @@
+export const HABIT_COLORS: Record<string, { light: string; base: string; dark: string }> = {
+  red:     { light: '#FEE2E2', base: '#EF4444', dark: '#DC2626' },
+  orange:  { light: '#FFEDD5', base: '#F97316', dark: '#EA580C' },
+  amber:   { light: '#FEF3C7', base: '#F59E0B', dark: '#D97706' },
+  yellow:  { light: '#FEF9C3', base: '#EAB308', dark: '#CA8A04' },
+  lime:    { light: '#ECFCCB', base: '#84CC16', dark: '#65A30D' },
+  green:   { light: '#DCFCE7', base: '#22C55E', dark: '#16A34A' },
+  emerald: { light: '#D1FAE5', base: '#10B981', dark: '#059669' },
+  teal:    { light: '#CCFBF1', base: '#14B8A6', dark: '#0D9488' },
+  cyan:    { light: '#CFFAFE', base: '#06B6D4', dark: '#0891B2' },
+  sky:     { light: '#E0F2FE', base: '#0EA5E9', dark: '#0284C7' },
+  blue:    { light: '#DBEAFE', base: '#3B82F6', dark: '#2563EB' },
+  indigo:  { light: '#E0E7FF', base: '#6366F1', dark: '#4F46E5' },
+  violet:  { light: '#EDE9FE', base: '#8B5CF6', dark: '#7C3AED' },
+  purple:  { light: '#F3E8FF', base: '#A855F7', dark: '#9333EA' },
+  fuchsia: { light: '#FAE8FF', base: '#D946EF', dark: '#C026D3' },
+  pink:    { light: '#FCE7F3', base: '#EC4899', dark: '#DB2777' },
+  rose:    { light: '#FFE4E6', base: '#F43F5E', dark: '#E11D48' },
+  slate:   { light: '#F1F5F9', base: '#64748B', dark: '#475569' },
+  gray:    { light: '#F3F4F6', base: '#6B7280', dark: '#4B5563' },
+  stone:   { light: '#F5F5F4', base: '#78716C', dark: '#57534E' },
+};
+
+export const HABIT_ICONS = [
+  'bed', 'close', 'hand-back-left', 'emoticon-happy', 'instagram',
+  'play', 'flash', 'diamond-stone', 'trash-can', 'book-open-variant',
+  'silverware-fork-knife', 'monitor',
+  'palette', 'swim', 'eye', 'brush', 'pill',
+  'car', 'dog', 'food-apple', 'image', 'delete',
+  'run', 'emoticon-cool', 'emoticon-wink', 'currency-gbp',
+  'scissors-cutting', 'paw', 'coffee', 'fruit-cherries',
+  'bike', 'tennis',
+  'music-note', 'headphones', 'at', 'brain',
+  'water', 'dumbbell', 'key', 'weight-lifter',
+  'butterfly', 'leaf', 'meditation',
+  'pulse', 'heart-pulse',
+  'code-tags', 'cellphone',
+  'triangle-outline', 'star',
+  'timer', 'yoga',
+];
+
+export const CATEGORY_ICONS = [
+  'dumbbell', 'book', 'heart', 'star', 'lightning-bolt',
+  'music-note', 'palette', 'code-tags', 'food-apple', 'meditation',
+];
+
+export const DEFAULT_CATEGORIES = [
+  { name: 'Fitness', icon: 'dumbbell' },
+  { name: 'Health', icon: 'heart' },
+  { name: 'Learning', icon: 'book' },
+  { name: 'Productivity', icon: 'lightning-bolt' },
+  { name: 'Mindfulness', icon: 'meditation' },
+];
